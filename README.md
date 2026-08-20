@@ -12,3 +12,9 @@ Alguns pontos que você pode querer ajustar ao abrir no BR Modelo:
 CRM, Nome (do paciente) e Número estão sublinhados como chave primária de cada entidade — no enunciado não há campo de identificação explícito para paciente, então usei Nome; se preferir, pode trocar por um "Código do paciente" (mais correto na prática, já que nome não é um bom identificador).
 Especialidade foi desenhada como atributo multivalorado (elipse dupla), pois um médico pode ter mais de uma especialidade.
 As cardinalidades foram marcadas como N:N em todos os relacionamentos, conforme o texto ("vários médicos"/"vários pacientes" nos dois sentidos).
+
+
+https://lucid.app/lucidchart/457b462e-672b-472b-9bd3-6ee61981642b/edit?invitationId=inv_8a77a6aa-8a82-476c-97be-9c96ab59dff8&page=0_0#
+
+
+site pra montar o banco de dados. 
