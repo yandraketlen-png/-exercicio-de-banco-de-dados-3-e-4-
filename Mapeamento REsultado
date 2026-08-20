@@ -1,0 +1,16 @@
+MAPEAMENTO RESULUÇÃO  DIAGRAMA  
+
+•Cliente={cod_cliente (sublinhado), rua, numero, bairro, cidade}
+•Vendedor={cod_vendedor (sublinhado), nome, salario}
+•Pedido={num_pedido (sublinhado), prazo_entrega, cod_cliente, cod_vendedor}
+•Produto={cod_produto(sublinhado), descricao, valor }
+•Item_Pedido={num_pedido (sublinhado), cod_produto, quantidade}
+
+MAPEAMENTO 2
+
+•Agencia={num_agencia , nome_age, cidade_age,}
+•Cliente={cod_cliente, nome_cli, rua, numero, cidade}
+•Emprestimo={numero_emp, num_agencia_emp, valor_emp}
+•Devedor={cod_cliente_dev, num_emp_dev}
+•Conta={num_conta, num_agencia_con, saldo_con }
+•Depositante={cod_cliente_dep, num_conta_dep}
