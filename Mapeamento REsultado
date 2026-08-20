@@ -1,10 +1,12 @@
 MAPEAMENTO RESULUÇÃO  DIAGRAMA  
 
-•Cliente={cod_cliente (sublinhado), rua, numero, bairro, cidade}
-•Vendedor={cod_vendedor (sublinhado), nome, salario}
-•Pedido={num_pedido (sublinhado), prazo_entrega, cod_cliente, cod_vendedor}
-•Produto={cod_produto(sublinhado), descricao, valor }
-•Item_Pedido={num_pedido (sublinhado), cod_produto, quantidade}
+MAPEAMENTO 1
+
+•Cliente={cod_cliente , rua, numero, bairro, cidade}
+•Vendedor={cod_vendedor , nome, salario}
+•Pedido={num_pedido, prazo_entrega, cod_cliente, cod_vendedor}
+•Produto={cod_produto, descricao, valor }
+•Item_Pedido={num_pedido , cod_produto, quantidade}
 
 MAPEAMENTO 2
 
@@ -14,3 +16,16 @@ MAPEAMENTO 2
 •Devedor={cod_cliente_dev, num_emp_dev}
 •Conta={num_conta, num_agencia_con, saldo_con }
 •Depositante={cod_cliente_dep, num_conta_dep}
+
+MAPEAMENTO 3 
+
+•Professor={cod_professor, nome, rua, numero, bairro, cidade} 
+•Aluno={ra_aluno, nome_aluno}
+ •Disciplina={sigla_disciplina, nome_disciplina}
+ •Turma={cod_turma, numero_alunos, sigla_disciplina, cod_professor} 
+•Matrícula={ra_aluno, sigla_disciplina}
+ •Monitora={ra_aluno, cod_turma, cod_professor, nota} 
+•Telefone={cod_aluno, telefone_aluno} 
+
+
+
